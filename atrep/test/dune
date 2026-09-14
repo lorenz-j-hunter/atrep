@@ -1,0 +1,3 @@
+(tests
+ (names test_atrep test_lib)
+ (libraries dream alcotest lwt alcotest-lwt templates lib))

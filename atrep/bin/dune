@@ -1,0 +1,4 @@
+(executable
+ (public_name atrep)
+ (name main)
+ (libraries lib templates))

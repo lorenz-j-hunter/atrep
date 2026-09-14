@@ -1,0 +1,10 @@
+(library
+ (name templates)
+ (modules :standard)
+ (libraries dream))
+
+(rule
+ (alias templates)
+ (deps home.eml)
+ (targets home.ml)
+ (action (run dream_eml %{deps})))
